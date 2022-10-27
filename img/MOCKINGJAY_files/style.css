@@ -1,0 +1,111 @@
+
+
+p{
+  color: white;
+  font-family: 'Exo 2', sans-serif; /*Gives all my paragraphs the same font*/
+}
+
+html, body {
+  height: 100%;
+  background-color: black;
+  margin:0px;
+  padding:0px;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+
+} /*Some basic styling for my page, including the background, margins and font.*/
+
+
+.main-image{
+  position: relative;
+  background: url(banner6.webp) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+  font: 'Josefin Sans', sans-serif; /*Image for the hero banner.*/
+}
+
+.main-image2{
+  position: relative;
+  background: url(banner1.png) no-repeat center;
+  background-size: cover;
+  height: 500px;
+  overflow: hidden;
+  font: 'Josefin Sans', sans-serif; /*Image for the hero banner.*/
+}
+
+.container2{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase; /*Styling for the look and position for the text in the hero banner*/
+
+
+}
+
+.container2 h1{
+  margin: 0px;
+  font-size: 66px;
+
+
+}
+
+.container2 h1 header {
+  border: 6px solid white;
+  padding: 6px 14px;
+  display:inline-block;
+
+}
+
+.cen{
+  margin: 20px;
+  display: block;
+  font-size: 22px;
+  font-family: 'Josefin Sans', sans-serif; /*Styling for the "subheading".*/
+
+}
+
+.button{
+  color: #313131;
+  padding: 10px 24px;
+  background: white;
+  text-decoration: none;
+  border-radius: 12px; /* Creates rounded corners*/
+  transition: .6s;
+  font-family: 'Josefin Sans', sans-serif; /*Styling for the button*/
+}
+
+.button:hover{
+  opacity: .6; /*Code for the change of opacity when the mouse is hovering over the button.*/
+  background: rgb(128, 6, 6);
+  color:rgb(255, 255, 255);
+  text
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+padding: 8px;
+
+
+}
+
+.informationparagraph{
+  padding: 10px;
+  background: rgba(224, 98, 7, 0.15);
+  border-radius: 12px;
+  font-size: 40px;
+  
+
+}
+
+li {
+  display: inline;
+}
+/*command+shift+c for the color picker*/
+/*command+, for the package installer*/

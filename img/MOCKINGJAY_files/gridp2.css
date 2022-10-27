@@ -1,0 +1,17 @@
+.container3{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 50px;
+}
+
+li{
+  grid-column: 1/-1;
+  grid-row:1/16;
+}
+
+p {
+  grid-column: 1/6;
+  overflow: auto;
+  grid-row: 4/7;
+}
