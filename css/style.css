@@ -38,6 +38,7 @@ html, body {
   margin-bottom: -25px;
   margin-left: -60px;
   display:inline-block;
+
 }
 
 .cen{
@@ -178,7 +179,7 @@ label.logo a {
   display: none;
 }
 
-@media (max-width: 803px){
+/*@media (max-width: 803px){
   nav ul li a {
     font-size: 10px;
   }
@@ -187,7 +188,7 @@ label.logo a {
   nav ul li {
     display:block;
   }
-}
+}*/
 /*
 #check{
   display: none;
@@ -463,6 +464,41 @@ nav.flexbox {
   }
 }
 
+ul li {
+  flex: 0 0 100px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+@media (min-width: 600px){
+  ul li {
+     flex: 0 0 auto;
+     margin-right: 20px;
+ }
+}
+
+@media (min-width: 600px){
+    &:last-child {
+    margin-right
+  }
+}
+
+nav.flexbox > a {
+
+        margin-bottom: 10px;
+}
+
+@media (min-width: 600px){
+      nav.flexbox{  margin-bottom: 0px;
+        }
+    }
+
+/*End of menu bar*/
+
+
+.informationhead {
+border: none;
+}
 
 /*command+shift+c for the color picker*/
 /*command+, for the package installer*/
