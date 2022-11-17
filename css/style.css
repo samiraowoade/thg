@@ -23,7 +23,7 @@ html, body {
 
 .emptypheader {
   font-family: 'Josefin Sans', sans-serif;
-  background: url(../img/banner7.jpeg) no-repeat center;
+  background: url(../img/banner7.webp) no-repeat center;
   background-size: cover;
   overflow: hidden;
   font-size: 1px;
@@ -238,7 +238,7 @@ label.logo a {
 } */
 .emptyp{
   color: rgba(255, 255, 255, 0);
-  background: url(../img/bbaner.jpeg);
+  background: url(../img/bbaner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
@@ -247,7 +247,7 @@ label.logo a {
 
 .emptyp2{
   color: rgba(255, 255, 255, 0);
-  background: url(anotha.jpeg);
+  background: url(anotha.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
@@ -283,7 +283,7 @@ label.logo a {
 
 .emptyp3{
   color: rgba(255, 255, 255, 0);
-  background: url(yes.jpeg);
+  background: url(yes.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
@@ -291,7 +291,7 @@ label.logo a {
 }
 .emptyp4{
   color: rgba(255, 255, 255, 0);
-  background: url(../img/pretty.jpeg);
+  background: url(../img/pretty.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
@@ -302,7 +302,7 @@ label.logo a {
 
 .emptyp5 {
   color: rgba(255, 255, 255, 0);
-  background: url(../img/banner1.png);
+  background: url(../img/banner1.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
@@ -499,6 +499,16 @@ nav.flexbox > a {
 .informationhead {
 border: none;
 }
+
+.scrollbox, .headerscrollbox{
+  color: rgba(23, 130, 39, 0);
+  font-size: 100px;
+}
+
+.scrollbox:hover {
+  scroll-behavior: smooth;
+}
+
 
 /*command+shift+c for the color picker*/
 /*command+, for the package installer*/

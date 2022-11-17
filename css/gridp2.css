@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 5px;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: 50px;
+  grid-auto-rows: minmax(50px, auto);
 }
 
 
@@ -28,6 +28,10 @@
   grid-column: 3/4;
   grid-row: 7/8;
 }
+.headerscrollbox{
+  grid-row: 10/20;
+  grid-column: 1/-1;
+}
 
 
 .emptyp{
@@ -44,6 +48,11 @@
 .learnmore{
   grid-column: 9/11;
   grid-row: 25/26;
+}
+
+.scrollbox{
+  grid-column: 1/-1;
+  grid-row: 31/42;
 }
 
 @media (max-width:768px){
