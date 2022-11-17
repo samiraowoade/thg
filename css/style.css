@@ -1,4 +1,4 @@
-rgb(37, 37, 37);
+
 p {
   color: white;
   font-family: 'Exo 2', sans-serif; /*Gives all my paragraphs the same font*/
@@ -45,7 +45,7 @@ html, body {
   border: none;
   font-size: 25px;
   text-align: center;
-  margin-right: ;
+
   text-transform: capitalize;
   margin-left: -40px;
 }
@@ -68,7 +68,6 @@ html, body {
 }
 
 .button:hover {
-  background: .6s;
   background: rgba(128, 6, 6, 0.4);
   color:rgb(255, 255, 255);
 
@@ -179,63 +178,7 @@ label.logo a {
   display: none;
 }
 
-/*@media (max-width: 803px){
-  nav ul li a {
-    font-size: 10px;
-  }
-}
-@media (max-width: 583px){
-  nav ul li {
-    display:block;
-  }
-}*/
-/*
-#check{
-  display: none;
 
-}
-
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left:50px;
-
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 858px){
-    .checkbtn{
-      display: block;
-    }
-    ul{
-      position: fixed;
-      width: 100%;
-      height: 100vh;
-      background: black;
-      top: 80px;
-      left:0;
-      text-align: center;
-    }
-    nav ul li{
-      display: block;
-    }
-    nav ul li a {
-      font-size: 20px;
-    }
-    a:hover, a.active{
-      background: none;
-      color: rgb(25, 25, 25);
-    }
-
-
-}
-
-#check:checked ~ ul{
-  left:0;
-} */
 .emptyp{
   color: rgba(255, 255, 255, 0);
   background: url(../img/bbaner.webp);
@@ -315,21 +258,21 @@ label.logo a {
 }
 
 .learnmore:hover {
-  background: .6s;
+
   background:rgba(180, 140, 108, 0.4);
 
 
 }
 
 .learnmore2:hover {
-  background: .6s;
+
   background:rgba(128, 46, 6, 0.4);
 
 
 }
 
 .learnmore3:hover {
-  background: .6s;
+
   background:rgba(79, 194, 160, 0.4);
 
 
@@ -337,14 +280,14 @@ label.logo a {
 
 
 .learnmore4:hover {
-  background: .6s;
+
   background:rgba(194, 97, 79, 0.4);
 
 
 }
 
 .learnmore5:hover{
-  background: .6s;
+
   background:rgba(200, 200, 200, 0.4);
 }
 
@@ -482,7 +425,7 @@ ul li {
 
 @media (min-width: 600px){
     &:last-child {
-    margin-right
+
   }
 }
 
