@@ -283,7 +283,7 @@ label.logo a {
 
 .emptyp3{
   color: rgba(255, 255, 255, 0);
-  background: url(yes.webp);
+  background: url(../img/yes.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
