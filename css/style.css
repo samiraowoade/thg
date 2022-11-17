@@ -247,7 +247,7 @@ label.logo a {
 
 .emptyp2{
   color: rgba(255, 255, 255, 0);
-  background: url(anotha.webp);
+  background: url(../img/anotha.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 530px;
