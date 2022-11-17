@@ -158,7 +158,7 @@ label.logo a {
 .button2{
   font-size: 30px;
   text-align: center;
-  color: rgba(44, 48, 57, 0.05);
+  color: rgba(180, 140, 108, 0.6);
   padding: 10px 24px;
   background: white;
   text-decoration: none;
@@ -260,7 +260,7 @@ label.logo a {
   text-align: center;
   padding: 10px 35px;
   padding-top: 15px;
-  color:rgba(44, 48, 57, 0.05);
+  color:rgba(44, 48, 57, 0.5);
 
 }
 
@@ -268,7 +268,7 @@ label.logo a {
 .learnmore3{
   font-size: 23px;
   text-align: center;
-  color: rgba(44, 48, 57, 0.05);
+  color: rgba(44, 48, 57, 0.5);
   padding: 10px 35px;
   padding-top: 15px;
 }
@@ -278,7 +278,7 @@ label.logo a {
   text-align: center;
   padding: 10px 35px;
   padding-top: 15px;
-  color:rgba(44, 48, 57, 0.05);
+  color:rgba(44, 48, 57, 0.5);
 }
 
 .emptyp3{
@@ -298,6 +298,9 @@ label.logo a {
   overflow: hidden;
   background-position: center;
 
+}
+.learnmore4{
+  color:rgba(44, 48, 57, 0.5);
 }
 
 .emptyp5 {
